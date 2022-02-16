@@ -1,3 +1,5 @@
+![Interep header](https://github.com/interep-project/.github/raw/master/assets/header.png)
+
 <div align="center">
     <h4>
         <a href="https://docs.interep.link/contributing">
