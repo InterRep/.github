@@ -1,14 +1,14 @@
 <div align="center">
     <h4>
-        <a href="https://docs.interrep.link/contributing">
+        <a href="https://docs.interep.link/contributing">
             👥 Contributing
         </a>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <a href="https://docs.interrep.link/code-of-conduct">
+        <a href="https://docs.interep.link/code-of-conduct">
             🤝 Code of conduct
         </a>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <a href="https://t.me/interrep">
+        <a href="https://t.me/interep">
             🗣️ Chat &amp; Support
         </a>
     </h4>
