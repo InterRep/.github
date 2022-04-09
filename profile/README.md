@@ -1,4 +1,4 @@
-![Interep header](https://github.com/interep-project/.github/raw/master/assets/header.png)
+![Interep header](https://github.com/interep-project/.github/raw/main/assets/header.png)
 
 <div align="center">
     <h4>
