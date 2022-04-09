@@ -1,0 +1,41 @@
+{
+    "name": "interep",
+    "description": "Interep landing page.",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "parcel serve --no-cache src/index.html",
+        "build": "parcel build --public-url https://interep.link src/index.html"
+    },
+    "dependencies": {
+        "@chakra-ui/react": "^1.8.8",
+        "@chakra-ui/theme": "^1.14.1",
+        "@chakra-ui/theme-tools": "^1.3.6",
+        "@emotion/react": "^11",
+        "@emotion/styled": "^11",
+        "@fontsource/inter": "^4.5.7",
+        "framer-motion": "^6",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.3.1"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.18",
+        "@types/react-dom": "^17.0.9",
+        "parcel": "^2.4.1",
+        "parcel-reporter-static-files-copy": "^1.3.4",
+        "process": "^0.11.10"
+    },
+    "browserslist": {
+        "production": [
+            ">0.5%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
