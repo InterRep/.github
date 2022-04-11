@@ -1,4 +1,4 @@
-![Interep header](https://github.com/interep-project/.github/raw/main/assets/header.png)
+![Interep header](https://github.com/interep-project/.github/raw/main/assets/header-github.png)
 
 <div align="center">
     <h4>
@@ -10,7 +10,7 @@
             🤝 Code of conduct
         </a>
         <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
-        <a href="https://t.me/interrep">
+        <a href="https://discord.gg/Tp9He7qws4">
             🗣️ Chat &amp; Support
         </a>
     </h4>
