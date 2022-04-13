@@ -61,7 +61,7 @@ function App() {
 
                                 <Stack direction={["column", "column", "row"]} spacing="3">
                                     <Link
-                                        display={["none", "none", "inherit"]}
+                                        display={["none", "none", "block"]}
                                         href="https://kovan.interep.link"
                                         isExternal
                                     >
@@ -166,9 +166,9 @@ function App() {
                                 </Heading>
 
                                 <HStack justify="space-between" px="4">
-                                    <Image src="./illustration-4.png" alt="Illustration 4" />
-                                    <Image src="./illustration-5.png" alt="Illustration 5" />
                                     <Image src="./illustration-6.png" alt="Illustration 6" />
+                                    <Image src="./illustration-5.png" alt="Illustration 5" />
+                                    <Image src="./illustration-4.png" alt="Illustration 4" />
                                 </HStack>
                             </VStack>
 
