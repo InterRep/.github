@@ -123,7 +123,7 @@ function App() {
 
                                     <Text color="background.400">
                                         Individuals can prove they are unique by joining an Interep group before using a
-                                        decentralized service.
+                                        DApp.
                                     </Text>
                                 </VStack>
 
@@ -134,7 +134,7 @@ function App() {
 
                                     <Text color="background.400">
                                         Allow your users to mint an NFT, apply for a loan, cast a vote, fund a project,
-                                        or join a web 3.0 social community. What will your team spin up?
+                                        or join a web 3.0 social community anonymously. What will your team spin up?
                                     </Text>
                                 </VStack>
 
@@ -182,7 +182,8 @@ function App() {
                                     </Heading>
 
                                     <Text color="background.300">
-                                        Reputation service and subgraph are provided to obtain group data.
+                                        REST APIs to interact with our off-chain groups and a subgraph to read on-chain
+                                        data with GraphQL.
                                     </Text>
                                 </VStack>
 
@@ -192,7 +193,8 @@ function App() {
                                     </Heading>
 
                                     <Text color="background.300">
-                                        Set of Solidity contracts are used to manage Interep groups.
+                                        Solidity smart contract to manage decentralized groups and verify zero-knowledge
+                                        proofs on-chain.
                                     </Text>
                                 </VStack>
                             </VStack>
@@ -233,7 +235,7 @@ function App() {
                             >
                                 <VStack align="left">
                                     <Heading as="h2" size="xl">
-                                        10
+                                        12
                                     </Heading>
                                     <Text>Groups</Text>
                                 </VStack>
