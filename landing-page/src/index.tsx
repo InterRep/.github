@@ -104,15 +104,22 @@ function App() {
                                 </Box>
                             </VStack>
 
-                            <VStack spacing="10" maxWidth={[, , "400px"]}>
+                            <VStack spacing="10" align="left" maxWidth={[, , "400px"]}>
                                 <VStack align="left">
                                     <Heading as="h4" size="md">
                                         1. Integrate with our tools
                                     </Heading>
 
                                     <Text color="background.400">
-                                        Interep offers APIs and libraries to help curate authentic human communities on
-                                        anonymous-first platforms.
+                                        Interep offers{" "}
+                                        <Link href="https://docs.interep.link/api" isExternal>
+                                            APIs
+                                        </Link>{" "}
+                                        and{" "}
+                                        <Link href="https://github.com/interep-project/interep.js" isExternal>
+                                            libraries
+                                        </Link>{" "}
+                                        to help curate authentic human communities on anonymous-first platforms.
                                     </Text>
                                 </VStack>
 
@@ -172,7 +179,10 @@ function App() {
                                     </Heading>
 
                                     <Text color="background.300">
-                                        Monorepo of interep.js libraries, created to make Interep integration easier.
+                                        <Link href="https://github.com/interep-project/interep.js" isExternal>
+                                            Monorepo
+                                        </Link>{" "}
+                                        of Interep libraries, created to make Interep integration easier.
                                     </Text>
                                 </VStack>
 
@@ -182,8 +192,14 @@ function App() {
                                     </Heading>
 
                                     <Text color="background.300">
-                                        REST APIs to interact with our off-chain groups and a subgraph to read on-chain
-                                        data with GraphQL.
+                                        <Link href="https://docs.interep.link/api#reputation-service" isExternal>
+                                            REST APIs
+                                        </Link>{" "}
+                                        to interact with our off-chain groups and a{" "}
+                                        <Link href="https://docs.interep.link/api#subgraph" isExternal>
+                                            subgraph
+                                        </Link>{" "}
+                                        to read on-chain data with GraphQL.
                                     </Text>
                                 </VStack>
 
@@ -193,8 +209,11 @@ function App() {
                                     </Heading>
 
                                     <Text color="background.300">
-                                        Solidity smart contract to manage decentralized groups and verify zero-knowledge
-                                        proofs on-chain.
+                                        Solidity{" "}
+                                        <Link href="https://github.com/interep-project/contracts" isExternal>
+                                            smart contract
+                                        </Link>{" "}
+                                        to manage decentralized groups and verify zero-knowledge proofs on-chain.
                                     </Text>
                                 </VStack>
                             </VStack>
