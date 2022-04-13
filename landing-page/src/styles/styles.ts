@@ -5,14 +5,6 @@ const styles: Styles = {
     global: (): SystemStyleObject => ({
         body: {
             bg: "background.900"
-        },
-        "body, #root": {
-            minHeight: "100vh"
-        },
-        "#root": {
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center"
         }
     })
 }
