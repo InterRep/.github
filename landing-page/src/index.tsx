@@ -56,11 +56,14 @@ function App() {
                                     Anti-sybil as a service
                                 </Heading>
 
-                                <Text color="background.300">
-                                    Build a more human environment by protecting your community from bots and sybils.{" "}
+                                <Box color="background.300">
+                                    <Text display="inline">
+                                        Build a more human environment by protecting your community from bots and
+                                        sybils.{" "}
+                                    </Text>
                                     <Text display={["none", "inline"]}>Get started by trying out our web app.</Text>
                                     <Text display={["inline", "none"]}>Get started by reading our documentation.</Text>
-                                </Text>
+                                </Box>
 
                                 <Stack direction={["column", "column", "row"]} spacing="3">
                                     <Link
