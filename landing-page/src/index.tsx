@@ -57,9 +57,9 @@ function App() {
                                 </Heading>
 
                                 <Text color="background.300">
-                                    Protect your reputation systems in order to build more inclusive environments.
-                                    <br />
-                                    Get started by reading our documentation.
+                                    Build a more human environment by protecting your community from bots and sybils.{" "}
+                                    <Text display={["none", "inline"]}>Get started by trying out our web app.</Text>
+                                    <Text display={["inline", "none"]}>Get started by reading our documentation.</Text>
                                 </Text>
 
                                 <Stack direction={["column", "column", "row"]} spacing="3">
@@ -259,7 +259,7 @@ function App() {
                                     <Heading as="h2" size="xl">
                                         12
                                     </Heading>
-                                    <Text>Groups</Text>
+                                    <Text>Identity groups</Text>
                                 </VStack>
 
                                 <Text color="background.300">
@@ -293,7 +293,7 @@ function App() {
                     </VStack>
                 </Container>
 
-                <Container display={["block", "none"]} py="20px" px="40px" maxW="container.xl">
+                <Container display={["block", "none"]} pb="20px" px="40px" maxW="container.xl">
                     <HStack justify="center">
                         <HStack minWidth="190px">
                             <Image src="./interep-icon.svg" alt="Interep icon" />

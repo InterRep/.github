@@ -7,8 +7,7 @@ const Button = {
             boxShadow: "none"
         },
         borderRadius: "4px",
-        fontWeight: "normal",
-        textTransform: "uppercase"
+        fontWeight: "normal"
     },
     defaultProps: {
         size: "lg"
