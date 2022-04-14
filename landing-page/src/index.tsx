@@ -301,12 +301,14 @@ function App() {
                         <HStack minWidth="190px">
                             <Image src="./interep-icon.svg" alt="Interep icon" />
 
-                            <Stack spacing={[0, 1]}>
-                                <Text fontSize="sm">Desktop DApp</Text>
+                            <Box>
+                                <Text display="inline" fontSize="md">
+                                    Desktop DApp:
+                                </Text>{" "}
                                 <Button onClick={onCopy} size="md" variant="link">
                                     kovan.interep.link
                                 </Button>
-                            </Stack>
+                            </Box>
                         </HStack>
                     </HStack>
                 </Container>
@@ -316,21 +318,20 @@ function App() {
                         <HStack minWidth="190px">
                             <Image src="./pse-icon.svg" alt="PSE icon" />
 
-                            <Stack direction={["column", "row"]} spacing={[0, 1]}>
-                                <Text fontSize="sm">© Interep x Privacy &</Text>
-                                <Text fontSize="sm">Scaling Explorations</Text>
-                            </Stack>
+                            <Text fontSize="sm">© Interep x Privacy & Scaling Explorations</Text>
                         </HStack>
 
                         <HStack minWidth="190px">
                             <Image src="./ethereum-icon.svg" alt="Ethereum icon" />
 
-                            <Stack direction={["column", "row"]} spacing={[0, 1]}>
-                                <Text fontSize="sm">Supported by the</Text>
+                            <Box>
+                                <Text display="inline" fontSize="sm">
+                                    Supported by the
+                                </Text>{" "}
                                 <Link href="https://ethereum.foundation" fontSize="sm" isExternal>
                                     Ethereum Foundation
                                 </Link>
-                            </Stack>
+                            </Box>
                         </HStack>
                     </Stack>
                 </Container>
