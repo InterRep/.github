@@ -47,7 +47,7 @@ function App() {
                                 px="8"
                                 maxWidth="700px"
                             >
-                                <Image src="./illustration-1.png" alt="Illustration 1" />
+                                <Image src="./illustration-1.svg" alt="Illustration 1" />
 
                                 <Heading as="h2" size="2xl">
                                     Anti-sybil, as a service
@@ -89,7 +89,7 @@ function App() {
                             </VStack>
 
                             <Box flex="1" maxWidth={[, , "400px"]} px="4">
-                                <Image src="./illustration-2.png" alt="Illustration 2" />
+                                <Image src="./illustration-2.svg" alt="Illustration 2" />
                             </Box>
                         </Stack>
 
@@ -100,7 +100,7 @@ function App() {
                                 </Heading>
 
                                 <Box flex="1" maxWidth="500px" px="4">
-                                    <Image src="./illustration-3.png" alt="Illustration 2" />
+                                    <Image src="./illustration-3.svg" alt="Illustration 2" />
                                 </Box>
                             </VStack>
 
@@ -166,9 +166,9 @@ function App() {
                                 </Heading>
 
                                 <HStack justify="space-between" px="4">
-                                    <Image src="./illustration-6.png" alt="Illustration 6" />
-                                    <Image src="./illustration-5.png" alt="Illustration 5" />
-                                    <Image src="./illustration-4.png" alt="Illustration 4" />
+                                    <Image src="./illustration-4.svg" alt="Illustration 6" />
+                                    <Image src="./illustration-5.svg" alt="Illustration 5" />
+                                    <Image src="./illustration-6.svg" alt="Illustration 4" />
                                 </HStack>
                             </VStack>
 
