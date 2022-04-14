@@ -291,15 +291,25 @@ function App() {
                 </Container>
 
                 <Container py="20px" px="40px" borderTopWidth="1px" maxW="container.xl">
-                    <Stack direction={["column", "row"]} justify="space-between" align="center">
-                        <Text fontSize="sm">© Interep | Privacy & Scaling Explorations</Text>
+                    <Stack direction={["column", "column", "row"]} justify="space-between" spacing="5" align="center">
+                        <HStack>
+                            <Image src="./pse-icon.png" alt="Ethereum icon" />
+
+                            <Stack direction={["column", "row"]} spacing={[0, 1]}>
+                                <Text fontSize="sm">© Interep x Privacy &</Text>
+                                <Text fontSize="sm">Scaling Explorations</Text>
+                            </Stack>
+                        </HStack>
 
                         <HStack>
-                            <Text fontSize="sm">Supported by</Text>
-                            <Image src="./ethereum-icon.png" alt="Ethereum icon" h={8} />
-                            <Link href="https://ethereum.foundation" fontSize="sm" isExternal>
-                                Ethereum Foundation
-                            </Link>
+                            <Image src="./ethereum-icon.png" alt="Ethereum icon" />
+
+                            <Stack direction={["column", "row"]} spacing={[0, 1]}>
+                                <Text fontSize="sm">Supported by the</Text>
+                                <Link href="https://ethereum.foundation" fontSize="sm" isExternal>
+                                    Ethereum Foundation
+                                </Link>
+                            </Stack>
                         </HStack>
                     </Stack>
                 </Container>
