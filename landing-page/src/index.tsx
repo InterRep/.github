@@ -293,7 +293,7 @@ function App() {
                 <Container py="20px" px="40px" borderTopWidth="1px" maxW="container.xl">
                     <Stack direction={["column", "column", "row"]} justify="space-between" spacing="5" align="center">
                         <HStack>
-                            <Image src="./pse-icon.png" alt="Ethereum icon" />
+                            <Image src="./pse-icon.svg" alt="Ethereum icon" />
 
                             <Stack direction={["column", "row"]} spacing={[0, 1]}>
                                 <Text fontSize="sm">© Interep x Privacy &</Text>
@@ -302,7 +302,7 @@ function App() {
                         </HStack>
 
                         <HStack>
-                            <Image src="./ethereum-icon.png" alt="Ethereum icon" />
+                            <Image src="./ethereum-icon.svg" alt="Ethereum icon" />
 
                             <Stack direction={["column", "row"]} spacing={[0, 1]}>
                                 <Text fontSize="sm">Supported by the</Text>
