@@ -87,10 +87,11 @@ function App() {
                                 </Heading>
 
                                 <Text color="background.300">
-                                    If you are building a Web 3.0 community, don’t let the fear of scams, bots, or
-                                    bullying squash your vision of privacy-first participation. Interep can help
-                                    communities organized in digital spaces to grow in an inclusive fashion, promote
-                                    fairness, and authenticate members as unique, human individuals.
+                                    If you are building a Web 3.0 community, it can feel like you have to choose between
+                                    privacy-first participation, and protecting your community against scams, bots, or
+                                    bullying. With Interep, communities organized in digital spaces can authenticate
+                                    members as unique humans without collecting any identifying information - so
+                                    communities can grow organically, promote fairness and preserve privacy.
                                 </Text>
                             </VStack>
 
