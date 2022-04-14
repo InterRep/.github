@@ -14,7 +14,8 @@ import {
     useClipboard,
     VStack
 } from "@chakra-ui/react"
-import "@fontsource/inter"
+import "@fontsource/inter/700.css"
+import "@fontsource/inter/400.css"
 import ReactDOM from "react-dom"
 import { FaDiscord, FaGithub } from "react-icons/fa"
 import theme from "./styles"
@@ -45,18 +46,17 @@ function App() {
                         <Stack align="center">
                             <VStack
                                 spacing={["6", "6", "12"]}
-                                textAlign="center"
+                                textAlign={["left", "center"]}
                                 justify="center"
-                                px="8"
                                 maxWidth="700px"
                             >
                                 <Image src="./illustration-1.svg" alt="Illustration 1" />
 
                                 <Heading as="h2" size="2xl">
-                                    Anti-sybil, as a service
+                                    Anti-sybil as a service
                                 </Heading>
 
-                                <Text color="background.400">
+                                <Text color="background.300">
                                     Protect your reputation systems in order to build more inclusive environments.
                                     <br />
                                     Get started by reading our documentation.
@@ -83,7 +83,7 @@ function App() {
                                     Provable, private identity
                                 </Heading>
 
-                                <Text color="background.400">
+                                <Text color="background.300">
                                     If you are building a Web 3.0 community, don’t let the fear of scams, bots, or
                                     bullying squash your vision of privacy-first participation. Interep can help
                                     communities organized in digital spaces to grow in an inclusive fashion, promote
@@ -113,7 +113,7 @@ function App() {
                                         1. Integrate with our tools
                                     </Heading>
 
-                                    <Text color="background.400">
+                                    <Text color="background.300">
                                         Interep offers{" "}
                                         <Link href="https://docs.interep.link/api" isExternal>
                                             APIs
@@ -131,7 +131,7 @@ function App() {
                                         2. Authenticate anonymously
                                     </Heading>
 
-                                    <Text color="background.400">
+                                    <Text color="background.300">
                                         Individuals can prove they are unique by joining an Interep group before using a
                                         DApp.
                                     </Text>
@@ -142,7 +142,7 @@ function App() {
                                         3. Explore use cases
                                     </Heading>
 
-                                    <Text color="background.400">
+                                    <Text color="background.300">
                                         Allow your users to mint an NFT, apply for a loan, cast a vote, fund a project,
                                         or join a web 3.0 social community anonymously. What will your team spin up?
                                     </Text>
@@ -153,7 +153,7 @@ function App() {
                                         4. Fortify privacy pools
                                     </Heading>
 
-                                    <Text color="background.400">
+                                    <Text color="background.300">
                                         Identity groups are shared across applications. This means that when your users
                                         and another app’s users authenticate using the same provider they will join the
                                         same privacy pool.
@@ -298,7 +298,7 @@ function App() {
                         <HStack minWidth="190px">
                             <Image src="./interep-icon.svg" alt="Interep icon" />
 
-                            <Stack direction={["column", "row"]} spacing={[0, 1]}>
+                            <Stack spacing={[0, 1]}>
                                 <Text fontSize="sm">Desktop DApp</Text>
                                 <Button onClick={onCopy} size="md" variant="link">
                                     kovan.interep.link

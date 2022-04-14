@@ -6,7 +6,9 @@ const Button = {
         _focus: {
             boxShadow: "none"
         },
-        borderRadius: "4px"
+        borderRadius: "4px",
+        fontWeight: "normal",
+        textTransform: "uppercase"
     },
     defaultProps: {
         size: "lg"
