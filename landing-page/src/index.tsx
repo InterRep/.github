@@ -11,6 +11,7 @@ import {
     Link,
     Stack,
     Text,
+    useClipboard,
     VStack
 } from "@chakra-ui/react"
 import "@fontsource/inter"
@@ -19,6 +20,8 @@ import { FaDiscord, FaGithub } from "react-icons/fa"
 import theme from "./styles"
 
 function App() {
+    const { onCopy } = useClipboard("https://kovan.interep.link")
+
     return (
         <ChakraProvider theme={theme}>
             <ColorModeProvider options={{ initialColorMode: "dark", useSystemColorMode: false }}>
@@ -290,10 +293,25 @@ function App() {
                     </VStack>
                 </Container>
 
+                <Container display={["block", "none"]} py="20px" px="40px" maxW="container.xl">
+                    <HStack justify="center">
+                        <HStack minWidth="190px">
+                            <Image src="./interep-icon.svg" alt="Interep icon" />
+
+                            <Stack direction={["column", "row"]} spacing={[0, 1]}>
+                                <Text fontSize="sm">Desktop DApp</Text>
+                                <Button onClick={onCopy} size="md" variant="link">
+                                    kovan.interep.link
+                                </Button>
+                            </Stack>
+                        </HStack>
+                    </HStack>
+                </Container>
+
                 <Container py="20px" px="40px" borderTopWidth="1px" maxW="container.xl">
                     <Stack direction={["column", "column", "row"]} justify="space-between" spacing="5" align="center">
-                        <HStack>
-                            <Image src="./pse-icon.svg" alt="Ethereum icon" />
+                        <HStack minWidth="190px">
+                            <Image src="./pse-icon.svg" alt="PSE icon" />
 
                             <Stack direction={["column", "row"]} spacing={[0, 1]}>
                                 <Text fontSize="sm">© Interep x Privacy &</Text>
@@ -301,7 +319,7 @@ function App() {
                             </Stack>
                         </HStack>
 
-                        <HStack>
+                        <HStack minWidth="190px">
                             <Image src="./ethereum-icon.svg" alt="Ethereum icon" />
 
                             <Stack direction={["column", "row"]} spacing={[0, 1]}>
