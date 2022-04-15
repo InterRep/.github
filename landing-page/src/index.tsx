@@ -17,7 +17,7 @@ import {
 import "@fontsource/inter/700.css"
 import "@fontsource/inter/400.css"
 import ReactDOM from "react-dom"
-import { FaDiscord, FaGithub } from "react-icons/fa"
+import { FaClipboardList, FaDiscord, FaGithub } from "react-icons/fa"
 import theme from "./styles"
 
 function App() {
@@ -31,6 +31,12 @@ function App() {
                         <Image src="./interep-logo.png" alt="Interep logo" h={10} />
 
                         <HStack spacing="4">
+                            <Link
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSdMKSIL-3RBriGqA_v-tJhNJOCciQEX7bwFvOW7ptWeDDhjpQ/viewform"
+                                isExternal
+                            >
+                                <Icon as={FaClipboardList} w={7} h={7} />
+                            </Link>
                             <Link href="https://discord.gg/Tp9He7qws4" isExternal>
                                 <Icon as={FaDiscord} w={7} h={7} />
                             </Link>
@@ -301,6 +307,31 @@ function App() {
                                     .
                                 </Text>
                             </VStack>
+                        </Stack>
+
+                        <Stack direction={["column", "column", "row"]} spacing="8" justify="space-between">
+                            <VStack flex="1" spacing="10" align="left" maxWidth={[, , "500px"]}>
+                                <Heading as="h2" size="xl">
+                                    Help define criteria for identity groups
+                                </Heading>
+
+                                <Text color="background.300">
+                                    We want to be reasonably sure that groups have people in them. We need to make
+                                    membership easy for people but hard for bots. If we set the bar too low, more bots
+                                    get in, and if we set it too high, people get shut out!
+                                </Text>
+
+                                <Link
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSdMKSIL-3RBriGqA_v-tJhNJOCciQEX7bwFvOW7ptWeDDhjpQ/viewform"
+                                    isExternal
+                                >
+                                    <Button colorScheme="primary">Share your thoughts</Button>
+                                </Link>
+                            </VStack>
+
+                            <Box flex="1" maxWidth={[, , "320px"]} px="4">
+                                <Image src="./illustration-7.svg" alt="Illustration 2" />
+                            </Box>
                         </Stack>
                     </VStack>
                 </Container>
