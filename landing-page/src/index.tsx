@@ -283,14 +283,22 @@ function App() {
                             >
                                 <VStack align="left">
                                     <Heading as="h2" size="xl">
-                                        +1
+                                        +5
                                     </Heading>
-                                    <Text>For privacy pools</Text>
+                                    <Text>Active contributors</Text>
                                 </VStack>
 
                                 <Text color="background.300">
-                                    When partnering with Interep, your users can verify within groups of other
-                                    anonymously authenticated users, increasing their anonymity.
+                                    Interep is built by people who believe it is possible to prove identity without
+                                    sacrificing privacy. New contributors are always welcome! Connect with us on{" "}
+                                    <Link href="https://github.com/interep-project" isExternal>
+                                        Github
+                                    </Link>{" "}
+                                    or{" "}
+                                    <Link href="https://discord.gg/Tp9He7qws4" isExternal>
+                                        Discord
+                                    </Link>
+                                    .
                                 </Text>
                             </VStack>
                         </Stack>
