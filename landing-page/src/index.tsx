@@ -72,25 +72,21 @@ function App() {
                                 </Box>
 
                                 <Stack direction={["column", "column", "row"]} spacing="3">
-                                    <Button colorScheme="primary">
-                                        <Link
-                                            display={["none", "none", "block"]}
-                                            href="https://kovan.interep.link"
-                                            sx={{ ":hover": { "text-decoration": "none" } }}
-                                            isExternal
-                                        >
-                                            Launch app
-                                        </Link>
-                                    </Button>
-                                    <Button variant="outline">
-                                        <Link
-                                            href="https://docs.interep.link"
-                                            sx={{ ":hover": { "text-decoration": "none" } }}
-                                            isExternal
-                                        >
-                                            Read documentation
-                                        </Link>
-                                    </Button>
+                                    <Link
+                                        display={["none", "none", "block"]}
+                                        href="https://kovan.interep.link"
+                                        sx={{ ":hover": { "text-decoration": "none" } }}
+                                        isExternal
+                                    >
+                                        <Button colorScheme="primary">Launch app</Button>
+                                    </Link>
+                                    <Link
+                                        href="https://docs.interep.link"
+                                        sx={{ ":hover": { "text-decoration": "none" } }}
+                                        isExternal
+                                    >
+                                        <Button variant="outline">Read documentation</Button>
+                                    </Link>
                                 </Stack>
                             </VStack>
                         </Stack>
@@ -330,15 +326,13 @@ function App() {
                                     get in, and if we set it too high, people get shut out!
                                 </Text>
 
-                                <Button colorScheme="primary">
-                                    <Link
-                                        href="https://docs.google.com/forms/d/e/1FAIpQLSdMKSIL-3RBriGqA_v-tJhNJOCciQEX7bwFvOW7ptWeDDhjpQ/viewform"
-                                        sx={{ ":hover": { "text-decoration": "none" } }}
-                                        isExternal
-                                    >
-                                        Share your thoughts
-                                    </Link>
-                                </Button>
+                                <Link
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSdMKSIL-3RBriGqA_v-tJhNJOCciQEX7bwFvOW7ptWeDDhjpQ/viewform"
+                                    sx={{ ":hover": { "text-decoration": "none" } }}
+                                    isExternal
+                                >
+                                    <Button colorScheme="primary">Share your thoughts</Button>
+                                </Link>
                             </VStack>
 
                             <Box flex="1" maxWidth={[, , "320px"]} px="4">
