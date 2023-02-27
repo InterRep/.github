@@ -37,7 +37,7 @@ function App() {
                             >
                                 <Icon as={FaClipboardList} w={7} h={7} />
                             </Link>
-                            <Link href="https://discord.gg/Tp9He7qws4" isExternal>
+                            <Link href="https://appliedzkp.org/discord" isExternal>
                                 <Icon as={FaDiscord} w={7} h={7} />
                             </Link>
                             <Link href="https://github.com/interep-project" isExternal>
@@ -306,7 +306,7 @@ function App() {
                                         Github
                                     </Link>{" "}
                                     or{" "}
-                                    <Link href="https://discord.gg/Tp9He7qws4" isExternal>
+                                    <Link href="https://appliedzkp.org/discord" isExternal>
                                         Discord
                                     </Link>
                                     .
