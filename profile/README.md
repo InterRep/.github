@@ -15,3 +15,7 @@
         </a>
     </h4>
 </div>
+
+<p align="center">
+⚠️ <b>Interep is no longer maintained. Please see <a href="https://github.com/privacy-scaling-explorations/bandada/">Bandada</a> to look into a similar project.</b>
+</p>
